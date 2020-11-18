@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace MoAlaa_Homework_State_Management
 {
-    public partial class firstpage_querystring : System.Web.UI.Page
+    public partial class view_state : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("secondpage_querystring.aspx?name=" + txtName.Text + "&age=" + txtAge.Text);
         }
     }
 }

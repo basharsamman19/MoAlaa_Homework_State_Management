@@ -11,7 +11,7 @@ namespace MoAlaa_Homework_State_Management
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write("Hello Mr." + Request.QueryString.Get("name") +  " and your age is" + Request.QueryString.Get("age"));
+            Response.Write("Hello Mr." + Request.QueryString.Get("name") +  " and your age is " + Request.QueryString.Get("age"));
         }
     }
 }

@@ -110,6 +110,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="secondpage_querystring.aspx" />
+    <Content Include="view_state.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="secondpage_querystring.aspx.designer.cs">
       <DependentUpon>secondpage_querystring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_state.aspx.cs">
+      <DependentUpon>view_state.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_state.aspx.designer.cs">
+      <DependentUpon>view_state.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
